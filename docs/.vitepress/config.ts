@@ -1,12 +1,25 @@
 import { defineConfig } from 'vitepress'
 import katex from 'markdown-it-katex'
 import mermaid from 'markdown-it-mermaid-plugin'
+import path from 'path'
 
 export default defineConfig({
   title: 'Ai4Energy',
   description: 'Ai4Energy Docs - Modeling & Simulation',
   base: '/ai4edocs-modeling/',
+  srcDir: '.',
+  publicDir: '.vitepress/public',
   ignoreDeadLinks: true,
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: '/assets/',
+          replacement: path.resolve(__dirname, './public/assets/') + '/'
+        }
+      ]
+    }
+  },
   themeConfig: {
     siteTitle: 'Ai4Energy',
     logo: '/logo.svg',
