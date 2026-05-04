@@ -17,7 +17,7 @@
 
 ## MTK符号建模
 
-在[DifferentialEquations建模方法](../Modeling/DE_intro.md)与[ModelingToolkit建模方法](../Modeling/MTK_intro.md)中介绍DE与MTK的两种建模方式。分析了使用它们建模的具体步骤与实现方法，并介绍了相应的内涵。
+在[DifferentialEquations建模方法](../04Modeling/DE_intro.md)与[ModelingToolkit建模方法](../04Modeling/MTK_intro.md)中介绍DE与MTK的两种建模方式。分析了使用它们建模的具体步骤与实现方法，并介绍了相应的内涵。
 
 这一篇中主要介绍符号建模的另一个强大功能——组件化建模。
 

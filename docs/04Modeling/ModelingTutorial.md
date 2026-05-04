@@ -337,9 +337,9 @@ sol[capacitor.p.v]
 
 组件化的意义就在于高效复用以提高系统构建效率。因为组件都是由开发者写好的，用户只需要构建连接关系，系统即可搭建好。这也是为什么说组件化是关于方程组织的艺术了，本质还是那个本质，只是换一种变量与方程的组织模式。电路系统的组件化是组件化思想的体现之一。
 
-* [组件化建模实例](../Simulation/componementModel.md)简要介绍了组件化建模思想。
+* [组件化建模实例](../05Simulation/componementModel.md)简要介绍了组件化建模思想。
 * [Ai4EComponentLib.jl](https://ai4energy.github.io/Ai4EComponentLib.jl/dev/)中系统的设计方法，都体现了组件化思想。
-* [Ai4EComponentLib.jl设计理念](../Frameworks/Ai4EComponentLib.md)介绍了更高层次的抽象组件内涵。
+* [Ai4EComponentLib.jl设计理念](https://huxinyang-web.github.io/ai4edocs-cs-basics/)（待迁移）介绍了更高层次的抽象组件内涵。
 
 最后，思考如何用节点电压法解下图的电路，以及如何用组件搭建。
 
