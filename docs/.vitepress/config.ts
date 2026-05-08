@@ -26,7 +26,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Modeling', icon: 'book', link: '/docs/' },
+      { text: 'Modeling', icon: 'book', link: '/' },
       { text: 'Cs-Basics', link: 'https://huxinyang-web.github.io/ai4edocs-cs-basics/' },
       { text: 'Dev-Tools', link: 'https://huxinyang-web.github.io/ai4edocs-dev-tools/' },
       { text: 'Optimization', link: 'https://huxinyang-web.github.io/ai4edocs-optimization/' },
@@ -39,26 +39,26 @@ export default defineConfig({
           text: '建模',
           collapsed: false,
           items: [
-            { text: '简介', link: '/docs/04Modeling/简介.md' },
-            { text: 'ModelingTutorial', link: '/docs/04Modeling/ModelingTutorial.md' },
-            { text: 'DE_intro', link: '/docs/04Modeling/DE_intro.md' },
-            { text: 'WhatMTKdo', link: '/docs/04Modeling/WhatMTKdo.md' },
-            { text: 'StructuralChemicalReaction', link: '/docs/04Modeling/StructuralChemicalReaction.md' },
-            { text: 'MTK 入门', link: '/docs/04Modeling/MTK 入门.md' },
-            { text: 'MTK 学习', link: '/docs/04Modeling/MTK 学习.md' }
+            { text: '简介', link: '/04Modeling/简介.md' },
+            { text: 'ModelingTutorial', link: '/04Modeling/ModelingTutorial.md' },
+            { text: 'DE_intro', link: '/04Modeling/DE_intro.md' },
+            { text: 'WhatMTKdo', link: '/04Modeling/WhatMTKdo.md' },
+            { text: 'StructuralChemicalReaction', link: '/04Modeling/StructuralChemicalReaction.md' },
+            { text: 'MTK 入门', link: '/04Modeling/MTK 入门.md' },
+            { text: 'MTK 学习', link: '/04Modeling/MTK 学习.md' }
           ]
         },
         {
           text: '仿真',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/05Simulation/简介.md' },
-            { text: '微分方程基础', link: '/docs/05Simulation/微分方程基础.md' },
-            { text: '数值仿真方法', link: '/docs/05Simulation/数值仿真方法.md' },
-            { text: '仿真案例分析', link: '/docs/05Simulation/仿真案例分析.md' },
-            { text: '性能优化技巧', link: '/docs/05Simulation/性能优化技巧.md' },
-            { text: '常见问题解答', link: '/docs/05Simulation/常见问题解答.md' },
-            { text: '仿真实战', link: '/docs/05Simulation/仿真实战.md' }
+            { text: '简介', link: '/05Simulation/简介.md' },
+            { text: '微分方程基础', link: '/05Simulation/微分方程基础.md' },
+            { text: '数值仿真方法', link: '/05Simulation/数值仿真方法.md' },
+            { text: '仿真案例分析', link: '/05Simulation/仿真案例分析.md' },
+            { text: '性能优化技巧', link: '/05Simulation/性能优化技巧.md' },
+            { text: '常见问题解答', link: '/05Simulation/常见问题解答.md' },
+            { text: '仿真实战', link: '/05Simulation/仿真实战.md' }
           ]
         }
       ]
