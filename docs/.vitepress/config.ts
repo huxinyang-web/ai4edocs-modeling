@@ -34,7 +34,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/docs/': [
+      '/': [
         {
           text: '建模',
           collapsed: false,

@@ -1,23 +1,20 @@
 ---
-layout: home
 title: Ai4Energy Docs
 titleTemplate: Modeling & Simulation
-
-hero:
-  name: Ai4Energy
-  text: Modeling & Simulation
-  tagline: 建模与仿真
-  actions:
-    - theme: brand
-      text: 开始学习
-      link: /docs/
-    - theme: alt
-      text: 其他文档仓库
-      link: https://huxinyang-web.github.io/ai4edocs-cs-basics/
-
-features:
-  - title: 建模
-    details: MTK 建模、物理系统建模、微分方程
-  - title: 仿真
-    details: 数值仿真方法、仿真案例分析、性能优化
 ---
+
+# 建模与仿真
+
+欢迎来到建模与仿真课程。本课程涵盖能源系统建模方法学和数值仿真技术，涉及 ModelingToolkit 框架、微分代数方程建模、稳态与动态仿真实践。
+
+## 课程内容
+
+### 建模
+建模导论、ModelingToolkit 教程、微分方程基础、MTK 核心功能、化学反应结构建模、MTK 入门与进阶学习。
+
+### 仿真
+微分方程基础理论、数值仿真方法概述、仿真案例分析与实践、性能优化技巧、常见问题解答、仿真实战演练。
+
+## 开始学习
+
+请使用左侧边栏导航，选择具体章节开始学习。
