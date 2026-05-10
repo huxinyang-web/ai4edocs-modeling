@@ -45,7 +45,8 @@ export default defineConfig({
             { text: 'MTK_tips', link: '/04Modeling/MTK_tips.md' },
             { text: 'ModelingTutorial', link: '/04Modeling/ModelingTutorial.md' },
             { text: 'WathMTKdo', link: '/04Modeling/WathMTKdo.md' },
-            { text: 'benchmark_de_mtk', link: '/04Modeling/benchmark_de_mtk.md' }
+            { text: 'benchmark_de_mtk', link: '/04Modeling/benchmark_de_mtk.md' },
+            { text: 'Ai4EComponentLib 设计理念', link: '/04Modeling/Ai4EComponentLib.md' }
           ]
         },
         {
