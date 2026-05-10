@@ -39,26 +39,26 @@ export default defineConfig({
           text: '建模',
           collapsed: false,
           items: [
-            { text: '简介', link: '/04Modeling/简介.md' },
-            { text: 'ModelingTutorial', link: '/04Modeling/ModelingTutorial.md' },
             { text: 'DE_intro', link: '/04Modeling/DE_intro.md' },
-            { text: 'WhatMTKdo', link: '/04Modeling/WhatMTKdo.md' },
-            { text: 'StructuralChemicalReaction', link: '/04Modeling/StructuralChemicalReaction.md' },
-            { text: 'MTK 入门', link: '/04Modeling/MTK 入门.md' },
-            { text: 'MTK 学习', link: '/04Modeling/MTK 学习.md' }
+            { text: 'MTK_intro', link: '/04Modeling/MTK_intro.md' },
+            { text: 'MTK_register', link: '/04Modeling/MTK_register.md' },
+            { text: 'MTK_tips', link: '/04Modeling/MTK_tips.md' },
+            { text: 'ModelingTutorial', link: '/04Modeling/ModelingTutorial.md' },
+            { text: 'WathMTKdo', link: '/04Modeling/WathMTKdo.md' },
+            { text: 'benchmark_de_mtk', link: '/04Modeling/benchmark_de_mtk.md' }
           ]
         },
         {
           text: '仿真',
           collapsed: true,
           items: [
-            { text: '简介', link: '/05Simulation/简介.md' },
-            { text: '微分方程基础', link: '/05Simulation/微分方程基础.md' },
-            { text: '数值仿真方法', link: '/05Simulation/数值仿真方法.md' },
-            { text: '仿真案例分析', link: '/05Simulation/仿真案例分析.md' },
-            { text: '性能优化技巧', link: '/05Simulation/性能优化技巧.md' },
-            { text: '常见问题解答', link: '/05Simulation/常见问题解答.md' },
-            { text: '仿真实战', link: '/05Simulation/仿真实战.md' }
+            { text: '微分代数方程', link: '/05Simulation/1-微分代数方程.md' },
+            { text: 'DE_heattran', link: '/05Simulation/DE_heattran.md' },
+            { text: 'MTK_Sundials', link: '/05Simulation/MTK_Sundials.md' },
+            { text: 'MTK_heattran', link: '/05Simulation/MTK_heattran.md' },
+            { text: 'MTK_parallel_computing', link: '/05Simulation/MTK_parallel_computing.md' },
+            { text: 'componementModel', link: '/05Simulation/componementModel.md' },
+            { text: 'steadyRC', link: '/05Simulation/steadyRC.md' }
           ]
         }
       ]
