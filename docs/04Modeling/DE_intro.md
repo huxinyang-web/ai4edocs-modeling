@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     DE = DifferentialEquations.jl
@@ -236,3 +238,7 @@ plot(sol)
 
 ::: tip
     DE中有许多特性，例如求解结果的处理（Solution Handle）、回调函数（Callback）等等。更多特性可以在官方文档中查看。
+
+:::
+:::
+:::

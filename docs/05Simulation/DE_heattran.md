@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     DE = DifferentialEquations.jl
@@ -250,3 +252,7 @@ $$\mathbf{y}\prime=\mathbf{f}(\mathbf{x},\mathbf{y})$$
 ::: tip
     MTK求解时。Step3、Step4由程序完成。
 
+:::
+:::
+:::
+:::

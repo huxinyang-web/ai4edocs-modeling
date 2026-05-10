@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     MTK = ModelingToolkit.jl
@@ -251,3 +253,5 @@ end
 ![图 2](/assets/image/05Simulation/MTK_parallel_computing_2.png) 
 
 如果采用MTK直接建立电池阵列的模型，那么计算时间与(单体数目)^2乘正比，如果采用并行计算，计算时间与(单体数目)^1乘正比。
+
+:::

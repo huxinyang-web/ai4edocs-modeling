@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     MTK = ModelingToolkit.jl
@@ -302,3 +304,8 @@ gif(anim, "anim.gif", fps = 24)
 
 物体温度是下降的，在不断散热。
 
+:::
+:::
+:::
+:::
+:::

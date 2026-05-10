@@ -8,6 +8,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     MTK = ModelingToolkit.jl
@@ -134,3 +136,5 @@ prob_ode = ODEProblem(sys,[], (0.0, 2500.0),[])
 ## 总结
 
 Sundials求解器和SCIML默认的求解器各有胜负。总的来说，对于一些简单的方程组，SCIML默认的求解器更快，对于一些较为复杂的方程组，Sundials求解器更快。
+
+:::
